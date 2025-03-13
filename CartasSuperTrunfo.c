@@ -10,10 +10,11 @@ int main() {
     int populacao1, populacao2, pontos_turisticos1, pontos_turisticos2; // int para números inteiros.
 
 
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n");
-    printf("▂ ▃ ▅ ▆ █           Seja Bem Vindo            █ ▆ ▅ ▃ ▂\n");
-    printf("▂ ▃ ▅ ▆ █  Insira informações Sobre a Carta01 █ ▆ ▅ ▃ ▂\n");
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n");
+    printf("==============================================================\n");
+    printf("=============           Seja Bem Vindo            ============\n");
+    printf("========   Por favor coloque as informações da Carta 01 ======\n");
+    printf("==============================================================\n");
+
 
     printf("Escolha uma letra de A a H para representar o primeiro estado. \n");
     printf("Estado: ");
@@ -46,9 +47,10 @@ int main() {
 
     //Agora iremos repetir o mesmo processo pra proxima carta colocando agora as variasveis [1] para [2]
 
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n");
-    printf("▂ ▃ ▅ ▆ █  Insira informações Sobre a Carta02 █ ▆ ▅ ▃ ▂\n");
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n"); 
+    printf("==============================================================\n");
+    printf("=============           Seja Bem Vindo            ============\n");
+    printf("========   Por favor coloque as informações da Carta 02 =====\n");
+    printf("==============================================================\n");
 
     printf("Escolha uma letra de A a H para representar o segundo estado. \n");
     printf("Estado: ");
@@ -79,9 +81,9 @@ int main() {
     printf("Pontos turisticos: ");
     scanf(" %d", &pontos_turisticos2);
 
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n");
-    printf("▂ ▃ ▅ ▆ █  Informações sobre a Carta 01 █ ▆ ▅ ▃ ▂\n");
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n"); 
+    printf("==============================================================\n");
+    printf("============= Informações sobre a Carta 01 ===================\n");
+    printf("==============================================================\n");
 
     printf("Estado: '%c' \n", estado1); //Utilizado %c para mostrar o caracter armazenado
     printf("Codigo: %c%2s \n", estado1, codico1);// Utilizado o %c%2s para que ele pudesse mostrar um caracter e uma string
@@ -91,9 +93,9 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib1); // Utilizado o %.2f para imprimir um número real (float) com 2 casas decimais armazenado na variável 'pib1'.
     printf("Pontos turisticos: %d \n", pontos_turisticos1); // Utilizado o %d para imprimir um número inteiro armazenado na variável 'pontos_turisticos1'.
 
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n");
-    printf("▂ ▃ ▅ ▆ █  Informações sobre a Carta 02  █ ▆ ▅ ▃ ▂\n");
-    printf("▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂\n"); 
+    printf("==============================================================\n");
+    printf("============= Informações sobre a Carta 02 ===================\n");
+    printf("==============================================================\n");
 
     printf("Estado: '%c' \n", estado2); 
     printf("Codigo: %c%2s \n", estado2, codico2); 
@@ -106,6 +108,5 @@ int main() {
     return 0;
 
     }
-
 
 
